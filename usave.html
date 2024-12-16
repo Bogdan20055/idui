@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USAVE - Топ Продаж Систем Безпеки</title>
+    <link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <h1>USAVE</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#about-us">Про нас</a></li>
+            <li><a href="#top-products">Продукти</a></li>
+            <li><a href="#contact">Контакти</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="about-us">
+        <h2>Про нас</h2>
+        <p>USAVE — Юсейв — це компанія, яка спеціалізується на сучасних рішеннях для забезпечення безпеки вашого дому, бізнесу та майна. Ми пропонуємо інноваційні технології, що гарантують спокій і захист у будь-якій ситуації.
+
+            Наша команда складається з досвідчених професіоналів, які працюють для створення систем безпеки, що відповідають вашим унікальним потребам. Ми забезпечуємо:
+            
+         *  Проєктування та встановлення систем відеоспостереження.
+         *  Монтаж систем охоронної сигналізації для житлових і комерційних приміщень.
+         *  Інтеграцію сучасних технологій розумного дому для автоматизації захисту.
+         *  Технічне обслуговування встановлених систем, що гарантує їхню надійність.</p>
+    </section>
+
+    <section id="top-products">
+        <h3>Топ Продаж Систем Безпеки</h3>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="sensor.jpg" alt="Система відеоспостереження">
+                <h4>Система Відеоспостереження</h4>
+                <p>Інноваційна система для цілодобового спостереження за вашим об'єктом.</p>
+                <div class="price">15,000 грн</div>
+                <button class="add-to-order">Додати</button>
+            </div>
+            <div class="product-card">
+                <img src="keeypad.jpg" alt="Охоронна сигналізація">
+                <h4>Охоронна Сигналізація</h4>
+                <p>Надійна сигналізація з миттєвими сповіщеннями про небезпеку.</p>
+                <div class="price">10,000 грн</div>
+                <button class="add-to-order">Додати</button>
+            </div>
+            <div class="product-card">
+                <img src="big.jpg" alt="Безпечна клава">
+                <h4>Безпечна Клава</h4>
+                <p>Інтелектуальна клавіатура для управління всіма системами безпеки.</p>
+                <div class="price">7,500 грн</div>
+                <button class="add-to-order">Додати</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h3>Контакти</h3>
+        <p>Зв'яжіться з нами для більше інформації або замовлення:</p>
+        <p>Email: <a href="mailto:usave@if@gmail.com">usave@if@gmail.com</a></p>
+        <p>Телефон: <a href="tel:+380673430125">067 343 0125</a></p>
+    </section>
+</main>
+
+<footer>
+    <p>© 2024 USAVE. Усі права захищено.</p>
+</footer>
+
+</body>
+</html>
+
+<style>
+/* Загальні стилі для сайту */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-transform: uppercase;
+    border: 3px solid #e74c3c;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+
+main {
+    padding: 40px 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2, h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+#top-products .products-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
+
+.product-card {
+    background-color: rgba(169, 169, 169, 0.5);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 300px;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-card h4 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.product-card p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-card .price {
+    font-size: 1.5rem;
+    color: #e74c3c;
+    margin-top: auto;
+}
+
+.add-to-order {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.add-to-order:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Адаптивність */
+
+/* Для великих екранів (понад 1200px) */
+@media (max-width: 1200px) {
+    .products-grid {
+        grid-template-columns: 1fr 1fr 1fr; /* Три колонки */
+    }
+}
+
+/* Для середніх екранів (менше 1200px, більше 768px) */
+@media (max-width: 992px) {
+    .products-grid {
+        grid-template-columns: 1fr 1fr; /* Дві колонки */
+    }
+    
+    .logo-container h1 {
+        font-size: 2rem;
+    }
+    
+    nav ul {
+        gap: 15px;
+    }
+}
+
+/* Для планшетів (менше 768px) */
+@media (max-width: 768px) {
+    .products-grid {
+        grid-template-columns: 1fr 1fr; /* Дві колонки для планшетів */
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo-container h1 {
+        font-size: 1.8rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+}
+
+/* Для мобільних пристроїв (менше 480px) */
+@media (max-width: 480px) {
+    .products-grid {
+        grid-template-columns: 1fr; /* Одна колонка */
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo-container h1 {
+        font-size: 1.5rem;
+        padding: 5px 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+}
+</style>
